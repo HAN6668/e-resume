@@ -333,6 +333,10 @@
     document.getElementById("btn-resume").addEventListener("click", function(){ 
       window.open('Resume.pdf', '_blank').focus();
     }); 
+
+    $("a.nav-link").on("click",function(){
+      document.querySelector('#top > header > div > nav > div > div.navbar-translate > button').click();
+    });
   </script> 
 </body>
 
